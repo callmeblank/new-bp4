@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 100px;
+    background-color:#333;
+    color: white;
+}
+
+header .container ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color:#b2b0b0
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 40px;
+    margin: 50px;
+}
+
+main .container img {
+    margin: 30px;
+}
+
+main .product {
+    background-color: rgb(149, 172, 179);
+    padding: 20px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+main .product:hover {
+    transform: scale(1.1);
+}
+
+main .product p {
+    color:rgb(16, 56, 42);
+}
+
+main .product button {
+    background-color: #a2a23c;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+main .product button:hover {
+    background-color: #9b9b09;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
