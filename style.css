@@ -82,7 +82,7 @@ footer {
     display: flex;
     justify-content: center;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     main .container {
         display: grid;
         grid-template-columns: 1fr;
