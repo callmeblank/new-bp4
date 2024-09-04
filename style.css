@@ -82,6 +82,17 @@ footer {
     display: flex;
     justify-content: center;
 }
+@media (max-width: 1200px) {
+    main .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        gap: 40px;
+        margin: 50px;
+    }
+}
+
+
 
 
 
